@@ -1,69 +1,64 @@
-Automated HR Attrition and Financial Risk Analysis
-Project Overview
+# Automated HR Attrition and Financial Risk Analysis
 
-This project analyzes 1470 employee records to identify attrition risk drivers, financial exposure, and workforce instability patterns. The objective was to provide leadership with data driven insights to protect and optimize a 5.2 million dollar workforce investment.
+## Project Overview
+
+This project analyzes 1470 employee records to identify attrition drivers, financial risk exposure, and workforce instability patterns. The objective was to provide leadership with clear data driven insights to reduce turnover and protect a 5.2 million dollar annual workforce investment.
 
 The final output is an executive dashboard built in Microsoft Excel using pivot tables, calculated metrics, VBA automation, and interactive slicers.
 
-Business Problem
+---
 
-The organization experienced a 16.12 percent attrition rate creating financial loss, operational disruption, and workforce instability. Leadership required deeper visibility into:
+## Business Problem
 
-What drives employee attrition
+The organization experienced a 16.12 percent attrition rate, creating financial leakage, productivity loss, and operational disruption. Leadership required deeper visibility into:
 
-Which departments face the highest turnover risk
+- What drives employee attrition
+- Which departments have the highest turnover risk
+- Whether compensation reduces attrition
+- The total financial cost of employee turnover
 
-Whether compensation reduces attrition
+Attrition was previously treated as a people issue rather than a measurable financial risk. Reporting processes were manual and static, limiting strategic decision making.
 
-The financial cost of employee turnover
+---
 
-Attrition was previously viewed as a people issue rather than a measurable financial risk. Reporting was manual, static, and lacked structured categorization for strategic analysis.
+## Technical Execution
 
-Technical Execution
+The raw HR dataset was transformed into a structured analytical model through:
 
-To transform raw HR data into a strategic decision support tool, the following steps were implemented:
+- Creation of tenure groups to identify high risk service periods
+- Development of salary bands to assess compensation impact
+- Construction of a financial attrition cost model
+- Automation of dashboard refresh using VBA macros
+- Integration of slicers for dynamic executive reporting
 
-Created tenure groups to identify high risk service periods
+The attrition cost model estimated annual salary multiplied by a 1.5 impact factor to account for recruitment, onboarding, training, and productivity loss.
 
-Developed salary band classifications to analyze compensation impact
+---
 
-Built a financial attrition cost model to quantify revenue exposure
+## Dashboard Insights
 
-Designed automated VBA macros to refresh dashboards instantly
+The executive dashboard revealed the following key findings:
 
-Integrated slicers for interactive executive reporting
+- Thirty six percent of exits occurred within the first year
+- Sales and HR recorded the highest attrition rates
+- Employees working overtime were three times more likely to leave
+- Higher salary levels did not significantly reduce attrition in Sales
+- Total estimated annual attrition cost exceeded 5.2 million dollars
 
-The attrition cost model calculated annual salary multiplied by an impact factor of 1.5 to account for recruitment, onboarding, training, and productivity loss.
+---
 
-Dashboard Insights
+## Strategic Recommendations
 
-The executive dashboard revealed several critical findings:
+Based on the analysis, the following actions were recommended:
 
-Thirty six percent of exits occurred within the first year of employment
+- Implement a structured ninety day onboarding and mentorship program
+- Conduct a workforce capacity review to reduce overtime dependency
+- Introduce targeted retention strategies in high risk departments
+- Transition HR reporting from reactive tracking to proactive financial monitoring
 
-Sales and HR recorded the highest attrition rates
+---
 
-Employees working overtime were three times more likely to leave
-
-Higher salary levels did not significantly reduce attrition in Sales
-
-Total estimated annual attrition cost exceeded 5.2 million dollars
-
-These insights reframed attrition as a measurable financial risk rather than a qualitative HR issue.
-
-Strategic Recommendations
-
-Based on the analysis the following actions were recommended:
-
-Implement a structured ninety day onboarding and mentorship program
-
-Conduct a workforce capacity review to reduce overtime dependency
-
-Introduce targeted retention strategies in high risk departments
-
-Shift reporting from reactive HR tracking to proactive financial monitoring
-
-Tools Used
+## Tools Used
 
 Microsoft Excel
 Pivot Tables
@@ -73,6 +68,8 @@ VBA
 Data Visualization
 Financial Modeling
 
-Conclusion
+---
 
-This project demonstrates how analytics and automation can transform HR reporting into a strategic financial intelligence system. By quantifying attrition cost and automating data workflows leadership gained clear visibility into workforce risk and actionable strategies to protect profitability.
+## Conclusion
+
+This project demonstrates how data analytics and automation can transform HR reporting into a strategic decision support system. By quantifying attrition cost and automating reporting workflows, leadership gained actionable insight to reduce turnover and protect organizational profitability.
